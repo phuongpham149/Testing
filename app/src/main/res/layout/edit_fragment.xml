@@ -1,0 +1,150 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frPasscode"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="100dp">
+
+        <RelativeLayout
+            android:id="@+id/rlPassCodeContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <EditText
+                android:id="@+id/etPassCode1"
+                android:layout_width="80dp"
+                android:layout_height="62dp"
+                android:background="@android:color/transparent"
+                android:cursorVisible="false"
+                android:ems="2"
+                android:gravity="center"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textColor="#82ccec"
+                android:textSize="35sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignLeft="@+id/etPassCode1"
+                android:layout_alignRight="@+id/etPassCode1"
+                android:layout_below="@+id/etPassCode1"
+                android:background="#000000" />
+
+            <EditText
+                android:id="@+id/etPassCode2"
+                android:layout_width="80dp"
+                android:layout_height="62dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/etPassCode1"
+                android:background="@android:color/transparent"
+                android:cursorVisible="false"
+                android:ems="2"
+                android:gravity="center"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textColor="#82ccec"
+                android:textSize="35sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignLeft="@+id/etPassCode2"
+                android:layout_alignRight="@+id/etPassCode2"
+                android:layout_below="@+id/etPassCode2"
+                android:background="#000000" />
+
+            <EditText
+                android:id="@+id/etPassCode3"
+                android:layout_width="80dp"
+                android:layout_height="62dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/etPassCode2"
+                android:background="@android:color/transparent"
+                android:cursorVisible="false"
+                android:ems="2"
+                android:gravity="center"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textColor="#82ccec"
+                android:textSize="35sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignLeft="@+id/etPassCode3"
+                android:layout_alignRight="@+id/etPassCode3"
+                android:layout_below="@+id/etPassCode3"
+                android:background="#000000" />
+
+            <EditText
+                android:id="@+id/etPassCode4"
+                android:layout_width="80dp"
+                android:layout_height="62dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/etPassCode3"
+                android:background="@android:color/transparent"
+                android:cursorVisible="false"
+                android:ems="2"
+                android:gravity="center"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textColor="#82ccec"
+                android:textSize="35sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignEnd="@+id/etPassCode4"
+                android:layout_alignLeft="@+id/etPassCode4"
+                android:layout_alignRight="@+id/etPassCode4"
+                android:layout_alignStart="@+id/etPassCode4"
+                android:layout_below="@+id/etPassCode4"
+                android:background="#000000" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvPassCodeMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rlPassCodeContainer"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:paddingTop="16dp"
+            android:visibility="gone"
+            android:textStyle="bold"
+            android:text="Pham Thi Phuong"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/tvPassCodeMessage1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPassCodeMessage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:paddingBottom="16dp"
+            android:text=""
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/edtHiddenInput"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/tvPassCodeMessage1"
+            android:inputType="number"
+            android:maxLength="4" />
+    </RelativeLayout>
+</ScrollView>

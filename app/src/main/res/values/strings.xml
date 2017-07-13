@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Testing</string>
+    <string name="text_2">※今回、利用申請したポイントは、\n  翌月の請求金額から値引きされます。</string>
+    <string name="text_1">※1ポイント、1円相当としてご利用いただけます。</string>
+
+    <string name="radio_male">Male</string>
+    <string name="radio_female">Female</string>
+    <string name="btn_display">Display</string>
+
+    <array name="title">
+        <item>ご利用金額がすぐわかる</item>
+        <item>お買い物明細を管理</item>
+        <item>ポイントでお得にお買い物</item>
+        <item>安心のセキュリティ</item>
+    </array>
+
+    <array name="content">
+        <item>お買いもの金額をいつでも確認できる。\n使い過ぎの心配はありません。</item>
+        <item>いつ、どこで、何を買ったかわかる。\nお買い物をしっかり管理できます。</item>
+        <item>貯まったポイントは、\nご利用代金に使えてとってもお得。</item>
+        <item>累計利用者1億人以上の「NP後払い」を \n運営する会社がサービスを提供。</item>
+    </array>
+</resources>

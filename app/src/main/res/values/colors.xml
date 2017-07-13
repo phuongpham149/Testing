@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="bg_linear_use_point">#dedede</color>
+    <color name="bg_radio_button_use_point">#f5f6f7</color>
+
+    <color name="text_color">#0099dd</color>
+    <color name="bg_linear_color">#82ccec</color>
+</resources>
